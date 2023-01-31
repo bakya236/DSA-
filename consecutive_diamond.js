@@ -6,9 +6,10 @@
 //  1 2 3
 //   1 2
 //    1
-let n = 4;
-let string = "";
-for (let i = 1; i <= n; i++) {
+
+let n = 4 ;
+let string = "" ;
+for (let i = 1; i <= n; i++) { 
   for (let j = n; j > i; j--) {
     string += " ";
   }

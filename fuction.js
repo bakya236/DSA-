@@ -156,18 +156,6 @@
 
 //////
 
-// let actual = "100"
-// let value = "10"
-// let type = "%"
-// let current;
-// if (type == "rs") {
-//     current = actual - value;
-//     console.log("current:" + current)
-// }
-// else {
-//     current = actual - actual * value / 100
-//     console.log("current:" + current);
-// }
 
 // 5.
 // 5.4.
@@ -175,11 +163,43 @@
 
 ////////////
 
-// let n = 5;
-// let str = "";
-// for (i = n; i > 2; i--) {
-//     str += i + ".";
-//     console.log(str);
-// }
+let n = 5;
+let str = "";
+for (i = n; i >=1; i--) {
+    str += i + ".";
+    console.log(str);
+}
 
 ///////////
+
+// 2 4 6 8 10
+// 2 4 6 8
+// 2 4 6
+// 2 4
+// 2
+
+/////////////////
+
+// let n = 10;
+// let str = "";
+
+// for (i = 2; i <= n; i = i + 2) {
+//     for (j = 2; j <= n - i + 2; j = j + 2) {
+//         str += j + " ";
+//     }
+//     str += "\n"
+// }
+// console.log(str);
+
+////////////
+
+// let n = 16;
+// let str = "";
+
+// for (let i = 1; i <= n; i = i ** 2) {
+//     str += i + " ";
+
+// }
+// console.log(str);
+
+
